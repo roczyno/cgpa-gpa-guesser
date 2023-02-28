@@ -1,0 +1,19 @@
+.footer {
+    position: absolute;
+    bottom: 0;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+}
+
+.footerWrapper {
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    color: #FF5F9E;
+    font-size: 20px;
+}

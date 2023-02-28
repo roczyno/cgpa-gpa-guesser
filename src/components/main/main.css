@@ -1,0 +1,28 @@
+.main {
+    height: calc(100vh - 50px);
+    position: relative;
+    top: 50px;
+    background: #2C3E50;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #4CA1AF, #2C3E50);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #4CA1AF, #2C3E50);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.buttonsContainer {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 24px;
+}
