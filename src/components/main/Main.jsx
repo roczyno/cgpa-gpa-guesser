@@ -1,12 +1,19 @@
 import "./main.css";
+import { Link } from "react-router-dom";
 
 const Main = () => {
   return (
     <div className="main">
       <div className="buttonsContainer">
-        <button className="btn">Calculate GPA</button>
-        <button className="btn">Calculate CGPA</button>
-        <button className="btn">View GradeList</button>
+        <Link to="/gpa">
+          <button className="btn">Calculate GPA</button>
+        </Link>
+        <Link to="/cgpa">
+          <button className="btn">Calculate CGPA</button>
+        </Link>
+        <Link to="/gradelist">
+          <button className="btn">View GradeList</button>
+        </Link>
       </div>
     </div>
   );
